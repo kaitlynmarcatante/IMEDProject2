@@ -1,0 +1,37 @@
+body {
+    background-color: #000000;
+  }
+ header > h1 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+  }
+#background-video {
+   width: 100vw;
+   height: 100vh;
+   object-fit: cover;
+   position: fixed;
+   left: 0;
+   right: 0;
+   top: 0;
+   bottom: 0;
+   z-index: -1;
+}
+a:hover {font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+a:visited {
+    color: rgb(232, 238, 236);}
+.bungee-inline-regular {
+  font-family: "Bungee Inline", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+*{box-sizing: border-box;}
+        #container{width: 1450px;background-color:rgba(166, 166, 184, 0.61);height:1200px;margin:0}
+
+        main{
+            margin-left:20px;
+          
+        }
+        footer{
+            margin-left: 20px;
+          }
